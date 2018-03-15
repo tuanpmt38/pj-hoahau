@@ -1,0 +1,51 @@
+@font-face { font-family: OpenSans-Light; src: url("../fonts/OpenSans-Light.ttf"); }
+@font-face { font-family: OpenSans-Regular; src: url("../fonts/OpenSans-Regular.ttf"); }
+@font-face { font-family: OpenSans-Medium; src: url("../fonts/OpenSans-Medium.ttf"); }
+@font-face { font-family: OpenSans-Bold; src: url("../fonts/OpenSans-Bold.ttf"); }
+@font-face { font-family: OpenSans-ExtraBoldItalic; src: url("../fonts/OpenSans-ExtraBoldItalic.ttf"); }
+body{
+	padding: 0;
+	margin: 0;
+}
+body { margin: 0; font-family: 'OpenSans-Regular'; }
+#home-page{
+	width: 100%;
+	padding: 0;
+}
+/*--top-header--*/
+.top-header{
+	background-color: #231f20;
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+.container {
+    width: auto;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.banner-slider{
+	background-image: url('../images/banner.jpg') ;
+	position: absolute;
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.text-box-banner-slider{
+	background: rgba(0, 0, 0, 0.6);
+    padding: 28px;
+    max-width: 330px;
+    height: 230px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    margin-left: 5%; 
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.text-box-banner-slider p{
+	
+}
